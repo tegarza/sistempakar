@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+       "target": "es2016",         // or higher like "es2020"
+    "lib": ["es2016", "dom"],   // add "es2016" or later for includes(), "dom" for browser
+    "module": "ES6",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false
+  },
+  "include": ["src/**/*"]
+}
