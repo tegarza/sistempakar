@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #121212;
+  color: #f1f1f1;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  background: #1e1e1e;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #00e5ff;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: none;
+  background: #2c2c2c;
+  color: white;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #00bfa5;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.btn a {
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #009688;
+}
+
+.navbar {
+  background-color: #1f1f1f;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: #00e5ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive untuk layar kecil */
+@media (max-width: 600px) {
+  .container {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+  h1, h2 {
+    font-size: 20px;
+  }
+}
+body, html {
+  height: 100%;
+}
